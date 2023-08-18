@@ -10,7 +10,7 @@ from collections import deque
 import random
 
 import carla
-from agent.controller import VehiclePIDController
+from agent.control import VehiclePIDController
 from utils import draw_waypoints, get_speed
 
 

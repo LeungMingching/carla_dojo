@@ -13,7 +13,7 @@ import numpy as np
 import networkx as nx
 
 import carla
-from agent.planner import RoadOption
+from agent.planning import RoadOption
 from utils import vector
 
 class GlobalRoutePlanner(object):

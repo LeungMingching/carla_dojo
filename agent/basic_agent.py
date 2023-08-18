@@ -12,8 +12,8 @@ It can also make use of the global route planner to follow a specifed route
 import carla
 from shapely.geometry import Polygon
 
-from agent.planner import LocalPlanner, RoadOption
-from agent.planner import GlobalRoutePlanner
+from agent.planning import LocalPlanner, RoadOption
+from agent.planning import GlobalRoutePlanner
 from utils import (
     get_speed,
     is_within_distance,

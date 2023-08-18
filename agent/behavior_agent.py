@@ -12,7 +12,7 @@ import random
 import numpy as np
 import carla
 from agent import BasicAgent
-from agent.planner import RoadOption
+from agent.planning import RoadOption
 from agent.behavior_types import Cautious, Aggressive, Normal
 
 from utils import get_speed, positive, is_within_distance, compute_distance
