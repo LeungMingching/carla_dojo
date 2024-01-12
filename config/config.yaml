@@ -1,0 +1,13 @@
+verbose: True
+host: 127.0.0.1
+port: 2000
+resolution:
+  width: 1280
+  height: 720
+sync: True
+filter: 'vehicle.*'
+generation: '2' # "1","2","All"
+loop: False
+agent: 'Behavior' # "Behavior", "Basic", "Constant"
+behavior: 'normal' # "cautious", "normal", "aggressive"
+seed: None
